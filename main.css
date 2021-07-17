@@ -560,7 +560,7 @@ body > section.products > div.rullerTwo > ul > a:nth-child(4) > li{
 }
 
 .proces{
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -583,12 +583,7 @@ body > section.proces > div{
     align-items: center;
     display: flex;
 }
-/* body > section.proces > div > div{
-    width: 800px;
-    height: 400px;
-    background-image: url('images/code.jpg');
-    background-size: cover;
-} */
+
 body > section.proces > div > div >a > div{
     background-image: url('images/btn.png');
     width: 100%;
@@ -598,7 +593,7 @@ body > section.proces > div > div >a > div{
     background-size: 10%;
 }
 #myVideo{
-    width: 600px;
+    width: 700px;
 }
 
 @media (max-width: 620px){

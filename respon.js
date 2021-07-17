@@ -31,7 +31,7 @@ snow.addEventListener('click',function () {
 })
 
 function myFunction(x) {
-    if (x.matches) { // If media query matches
+    if (x.matches) { 
         ul.style.display="none"
     } else {
         ul.style.display="flex"
@@ -39,5 +39,5 @@ function myFunction(x) {
   }
   
   const x = window.matchMedia("(max-width: 1350px)")
-  myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) // Attach listener function on state changes
+  myFunction(x)
+  x.addListener(myFunction)
